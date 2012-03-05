@@ -1,8 +1,8 @@
 <?php
 
-define( 'PINNION_API_USER', 'asdf' );
-define( 'PINNION_API_PASS', 'asdf' );
-define( 'PINNION_API_URL', 'http://dev.pinnion.com' );
+define( 'PINNION_API_USER', get_option( $blog_id . '_pinnion_api_user' ) );
+define( 'PINNION_API_PASS', get_option( $blog_id . '_pinnion_api_pass' ) );
+define( 'PINNION_API_URL', get_option( $blog_id . '_pinnion_api_url' ) );
 
 
 
